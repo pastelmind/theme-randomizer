@@ -1,0 +1,28 @@
+{
+  "name": "theme-randomizer",
+  "version": "0.1.0",
+  "description": "KoLmafia theme randomizer",
+  "main": "release/scripts/random-theme.js",
+  "scripts": {
+    "test": "tsc -p jsconfig.json && prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pastelmind/theme-randomizer.git"
+  },
+  "keywords": [
+    "kolmafia",
+    "theme"
+  ],
+  "author": "pastelmind",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pastelmind/theme-randomizer/issues"
+  },
+  "homepage": "https://github.com/pastelmind/theme-randomizer#readme",
+  "devDependencies": {
+    "kolmafia": "^1.0.3",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.2"
+  }
+}
